@@ -1,0 +1,8 @@
+#+title: flymake-pyre
+
+An Emacs flymake handler for syntax-checking assemlby source code using =pyre=.
+* Usage:
+#+begin_src elisp
+(require 'flymake-pyre)
+(add-hook 'python-mode-hook #'flymake-pyre-setup)
+#+end_src
